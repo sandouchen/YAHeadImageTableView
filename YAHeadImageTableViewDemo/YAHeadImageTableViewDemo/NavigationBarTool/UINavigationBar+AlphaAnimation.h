@@ -1,18 +1,20 @@
 //
 //  UINavigationBar+AlphaAnimation.h
-//  ZQFNewMedia
 //
 //  Created by yinyao on 2017/3/2.
-//  Copyright © 2017年 深圳市正前方新媒体. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface UINavigationBar (AlphaAnimation)
 
+///设置背景颜色
 - (void)ya_setBackgroundColor:(UIColor *)backgroundColor;
+
+///设置导航栏中包含的视图元素的透明度
 - (void)ya_setElementsAlpha:(CGFloat)alpha;
-- (void)ya_setTranslationY:(CGFloat)translationY;
+
+///重置导航栏为默认样式
 - (void)ya_reset;
 
 @end

@@ -1,8 +1,6 @@
 //
 //  UIView+Extension.m
 //
-//  Created by xiaheqi on 14-5-26.
-//  Copyright (c) 2014年 itcast. All rights reserved.
 //
 
 #import "UIView+Extension.h"

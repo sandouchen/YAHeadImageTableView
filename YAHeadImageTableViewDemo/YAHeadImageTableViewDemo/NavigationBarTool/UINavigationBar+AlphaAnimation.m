@@ -1,9 +1,7 @@
 //
 //  UINavigationBar+AlphaAnimation.m
-//  ZQFNewMedia
 //
 //  Created by yinyao on 2017/3/2.
-//  Copyright © 2017年 深圳市正前方新媒体. All rights reserved.
 //
 
 #import "UINavigationBar+AlphaAnimation.h"
@@ -32,10 +30,6 @@ static char overlayKey;
         [[self.subviews firstObject] insertSubview:self.overlay atIndex:0];
     }
     self.overlay.backgroundColor = backgroundColor;
-}
-
-- (void)ya_setTranslationY:(CGFloat)translationY {
-    self.transform = CGAffineTransformMakeTranslation(0, translationY);
 }
 
 - (void)ya_setElementsAlpha:(CGFloat)alpha {
